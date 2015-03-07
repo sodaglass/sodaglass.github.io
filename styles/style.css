@@ -29,7 +29,8 @@ h3.description {
 	width: 1017px;
 	height: 261px;
 	background-size:1017px 261px;
-	top: 45%;
+	top: 43%;
+	margin-left: -2%;
 	position: fixed;
 }
 
@@ -37,23 +38,32 @@ h3.description {
 .iphone {
 	background-image: url(../img/iphone@2x.png);
 	background-size:1017px 261px;
-	top: 50%;
+	top: 43%;
 	position: fixed;
 }
 }
 
 /* Puta fooooter */
-
-
 #footer {
-	width: 100%;
+	position: fixed;
+    bottom:10%;
+    left:0;
+    width: 960px;
+    right:0;
+    margin: 0 auto;
 }
+
 p.foText {
-	vertical-align: middle;
-    display: table-cell;
-    padding-left: 14px;
+	display: inline-block;
+	margin-left: 10px;
     width: 104px;
     text-decoration: underline;
-    opacity: 0.80;
+    opacity: 0.70;
 }
-
+a:link {
+	text-decoration: none;
+	color: inherit
+}
+a:visited {
+	color: inherit;
+}
