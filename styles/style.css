@@ -8,9 +8,7 @@ html {
 	box-sizing: border-box;
 }
 
-h1.title {
-	color: rgba(0, 0, 0, 0.70);
-	font-size: 55px;
+.soda {
 	margin-top: 8%;
 	text-align: left;
 	position: relative;
@@ -22,7 +20,7 @@ h3.description {
 	font-size: 16px;
 	text-align: right;
 	width:355px;
-	margin-left:auto; margin-right:0; margin-top: -90px;
+	margin-left:auto; margin-right:15px; margin-top: -40px;
 }
 .iphone {
 	background-image: url(../img/iphone.png);
