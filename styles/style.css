@@ -60,6 +60,10 @@ p.foText {
     text-decoration: underline;
     opacity: 0.70;
 }
+a#trakt {
+	text-decoration: underline;
+	color: #FF6866;
+}
 a:link {
 	text-decoration: none;
 	color: inherit
@@ -67,3 +71,5 @@ a:link {
 a:visited {
 	color: inherit;
 }
+
+
